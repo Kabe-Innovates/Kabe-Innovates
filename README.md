@@ -13,6 +13,10 @@ class Student:
         
         self.languages_spoken = ["ta_IN", "en_US"]
 
+        self.positions = {
+            "Tech Society": "Joint Secretary(Intelligent Systems Community)"
+        }
+
         self.skills = {
             "coding": ["Python", "C", "Solidity", "JavaScript"],
             "frameworks": ["ROS", "Django"],
