@@ -34,7 +34,7 @@ class Student:
         }
 
     def greet(self):
-        print("Thanks for visiting my profile! Hope you find some of my work interesting. ✨")
+        print("Nandri..! Meendum Varuga.. (See you back soon!)✨")
 
 
 me = Student()
