@@ -1,16 +1,38 @@
-## Hi there 👋
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-150x25.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-<!--
-**Kabe-Innovates/Kabe-Innovates** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-Here are some ideas to get you started:
+class Student:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.name = "Kabelan G K"
+        self.role = "Student"
+        self.location = "தமிழ்நாடு, India"
+        
+        self.languages_spoken = ["ta_IN", "en_US"]
+
+        self.skills = {
+            "coding": ["Python", "C", "Solidity", "JavaScript"],
+            "frameworks": ["ROS", "Django"],
+            "frontend": ["React", "Vue"],
+            "tools": ["Docker", "Git", "AWS"]
+        }
+        
+        self.interests = ["AI", "ML", "IoT", "Cybersecurity", "Web3"]
+
+        self.currently_learning = "Embedded systems"
+
+        self.contact = {
+            "linkedin": "https://www.linkedin.com/in/kabelan-gk",
+            "youtube": "https://www.youtube.com/@Kabe-Innovates" 
+        }
+
+    def greet(self):
+        print("Thanks for visiting my profile! Hope you find some of my work interesting. ✨")
+
+
+me = Student()
+me.greet()
+```
